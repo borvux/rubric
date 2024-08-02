@@ -8,12 +8,12 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Readme (max: 10 points)
 - [ ] **Markdown**: Is the README formatted using Markdown?
-- [ ] **Naming**: Is the repository name relevant to the project?
+- [x] **Naming**: Is the repository name relevant to the project?
 - [ ] **1-liner**: Is there a 1-liner briefly describing the project?
 - [ ] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
 - [ ] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
 - [ ] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
-- [ ] **ERD**: Does the documentation include an entity relationship diagram?
+- [x] **ERD**: Does the documentation include an entity relationship diagram?
 - [ ] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
 - [ ] **Visual Aids**: Are there visual aids (diagrams, screenshots, etc.) that would help developers quickly ramp on to the project?
 - [ ] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
@@ -23,14 +23,14 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Version Control (max: 10 points)
-- [ ] **Version Control**: Is the project using a version control system such as Git?
-- [ ] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
+- [x] **Version Control**: Is the project using a version control system such as Git?
+- [x] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
 - [ ] **Commit Quality**: Does the project have regular commits with clear, descriptive messages?
-- [ ] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
-- [ ] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
-- [ ] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
-- [ ] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
-- [ ] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
+- [x] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
+- [x] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
+- [x] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
+- [x] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
+- [x] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
 - [ ] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
@@ -39,7 +39,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Code Hygiene (max: 8 points)
-- [ ] **Indentation**: Is the code consistently indented throughout the project?
+- [x] **Indentation**: Is the code consistently indented throughout the project?
 - [ ] **Naming Conventions**: Are naming conventions (e.g., variable names, method names, class names) clear, consistent, and descriptive?
 - [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase for JavaScript, snake_case for Ruby, PascalCase for Ruby Classes) consistent throughout the project? 
 - [ ] **Layouts**: Is the code utilizing Rails' `application.html.erb` layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
@@ -56,7 +56,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
-- [ ] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
+- [x] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
@@ -96,12 +96,12 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Backend (max: 9 points)
-- [ ] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
+- [x] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
 - [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
 - [ ] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
 - [ ] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
 - [ ] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
-- [ ] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
+- [x] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
 - [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
 - [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included? (e.g. slurp.rake task)
@@ -120,7 +120,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Security and Authorization (max: 5 points)
 - [ ] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
-- [ ] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
+- [x] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
 - [ ] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
 - [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
 - [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
