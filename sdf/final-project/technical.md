@@ -32,7 +32,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
 - [x] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
-- [ ] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
+- [x] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
 ### Score (/10):
 
@@ -46,7 +46,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
 - [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
 - [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
-- [ ] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
+- [x] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
 
 ### Score (/8):
 
@@ -55,11 +55,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ## Patterns of Enterprise Applications (max: 10 points)
 - [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
-- [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
+- [x] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
 - [x] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
-- [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
+- [x] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
 - [ ] **Event-Driven Architecture**: Does the application use event-driven architecture (e.g., pub-sub) to decouple components and improve scalability? (for example ActionCable https://guides.rubyonrails.org/action_cable_overview.html)
 - [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
 - [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
@@ -80,12 +80,12 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Frontend (max: 10 points)
-- [ ] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
-- [ ] **Desktop Design**: It looks and works great on desktop.
-- [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
+- [x] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
+- [x] **Desktop Design**: It looks and works great on desktop.
+- [x] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
 - [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
-- [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
-- [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
+- [x] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
+- [x] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **AJAX**: Is Asynchronous JavaScript (and XML) used to perform a CRUD action and update the UI?
 - [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
 - [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
@@ -98,7 +98,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ## Backend (max: 9 points)
 - [x] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
 - [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
-- [ ] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
+- [x] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
 - [ ] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
 - [ ] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
 - [x] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
@@ -122,8 +122,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
 - [x] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
 - [ ] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
-- [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
-- [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
+- [x] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
+- [x] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
 
 ### Score (/5):
 
@@ -132,15 +132,15 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ## Features (each: 1 point - max: 15 points)
 - [ ] **Sending Email**: Does the application send transactional emails (e.g., welcome emails, password reset emails) to users?
 - [ ] **Sending SMS**: Does the application send transactional SMS messages to users?
-- [ ] **Building for Mobile**: Implementation of a Progressive Web App (PWA) to provide a mobile app-like experience on the web.
-- [ ] **Advanced Search and Filtering**: Incorporation of advanced search and filtering capabilities (Ransack or similar) to improve data retrieval and user experience.
+- [x] **Building for Mobile**: Implementation of a Progressive Web App (PWA) to provide a mobile app-like experience on the web.
+- [x] **Advanced Search and Filtering**: Incorporation of advanced search and filtering capabilities (Ransack or similar) to improve data retrieval and user experience.
 - [ ] **Data Visualization**: Integration of charts, graphs, or other visual representations of data (Chartkick or similar) to provide insightful views of data to the user.
 - [ ] **Dynamic Meta Tags**: Dynamic generation of meta tags for social media previews and SEO optimization, enhancing the application's presence on the web.
-- [ ] **Pagination**: Use of pagination libraries (Kaminari, will_paginate, or similar) to manage large sets of data efficiently on the UI.
+- [x] **Pagination**: Use of pagination libraries (Kaminari, will_paginate, or similar) to manage large sets of data efficiently on the UI.
 - [ ] **Internationalization (i18n)**: Support for multiple languages using internationalization techniques, making the app accessible to a global audience.
-- [ ] **Admin Dashboard**: Creation of an admin panel to provide valuable administrative capabilities (Rails Admin or similar).
+- [x] **Admin Dashboard**: Creation of an admin panel to provide valuable administrative capabilities (Rails Admin or similar).
 - [ ] **Business Insights Dashboard**: Creation of an insights dashboard to provide valuable business intelligence capabilities (Blazer or similar).
-- [ ] **Enhanced Navigation**: Are breadcrumbs (or similar) used to enhance site navigation?
+- [x] **Enhanced Navigation**: Are breadcrumbs (or similar) used to enhance site navigation?
 - [ ] **Performance Optimization**: Is the Bullet gem (or similar) used in development to detect and reduce N+1 queries and other common performance bottlenecks?
 - [ ] **Stimulus**: Implementation of Stimulus.js to enhance interactivity and user experience on the frontend.
 - [ ] **Turbo Frames**: Implementation of Turbo Frames to enhance the performance of the application by updating only parts of the page.
