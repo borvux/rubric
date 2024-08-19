@@ -7,16 +7,16 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Reviewer Name:
 
 ## Readme (max: 10 points)
-- [ ] **Markdown**: Is the README formatted using Markdown?
+- [x] **Markdown**: Is the README formatted using Markdown?
 - [x] **Naming**: Is the repository name relevant to the project?
-- [ ] **1-liner**: Is there a 1-liner briefly describing the project?
-- [ ] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
-- [ ] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
-- [ ] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
+- [x] **1-liner**: Is there a 1-liner briefly describing the project?
+- [x] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
+- [x] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
+- [x] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
 - [x] **ERD**: Does the documentation include an entity relationship diagram?
-- [ ] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
-- [ ] **Visual Aids**: Are there visual aids (diagrams, screenshots, etc.) that would help developers quickly ramp on to the project?
-- [ ] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
+- [x] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
+- [x] **Visual Aids**: Are there visual aids (diagrams, screenshots, etc.) that would help developers quickly ramp on to the project?
+- [x] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
 
 ### Score (/10):
 
@@ -83,7 +83,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
 - [x] **Desktop Design**: It looks and works great on desktop.
 - [x] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
-- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
+- [x] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
 - [x] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
 - [x] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **AJAX**: Is Asynchronous JavaScript (and XML) used to perform a CRUD action and update the UI?
